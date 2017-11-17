@@ -1,0 +1,4 @@
+org\springframework\web\entity\Customer.class
+org\springframework\web\entity\CustomerRepository.class
+org\springframework\web\controller\WebController.class
+org\springframework\web\App.class
