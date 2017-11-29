@@ -1,4 +1,9 @@
-org\springframework\web\entity\Customer.class
-org\springframework\web\entity\CustomerRepository.class
-org\springframework\web\controller\WebController.class
+org\springframework\web\entity\Department.class
+org\springframework\web\entity\Salary.class
+org\springframework\web\entity\Task.class
 org\springframework\web\App.class
+org\springframework\web\entity\Job.class
+org\springframework\web\entity\Employee.class
+org\springframework\web\entity\Location.class
+org\springframework\web\controller\WebController.class
+org\springframework\web\entity\EmployeeRepository.class

@@ -1,0 +1,41 @@
+#Spring properties
+spring:
+  application:
+    name: holidays-service
+  jpa:
+    generate-ddl: true
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: true
+        database-platform: org.hibernate.dialect.H2Dialect
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true
+        ddl-auto: create
+    
+    
+  datasource:
+    url: jdbc:h2:~/data/testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+    platform: h2
+  # enable H2 web console and set url for web console
+  # http://localhost:port/console
+  h2:
+    console:
+      enabled: true
+      path: /console
+      settings:
+        web-allow-others: true
+
+#Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+#HTTP Server
+server:
+  port: 2222 #HTTP (Tomcat) port
+  
+ 
