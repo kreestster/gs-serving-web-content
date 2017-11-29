@@ -5,5 +5,6 @@ org\springframework\web\App.class
 org\springframework\web\entity\Job.class
 org\springframework\web\entity\Employee.class
 org\springframework\web\entity\Location.class
+org\springframework\web\Demo.class
 org\springframework\web\controller\WebController.class
 org\springframework\web\entity\EmployeeRepository.class
